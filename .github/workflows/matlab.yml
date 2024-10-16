@@ -1,4 +1,4 @@
-name: Run MATLAB Live Script
+name: Run MATLAB Script
 
 on:
   push:
@@ -18,5 +18,4 @@ jobs:
 
     - name: Run MATLAB script
       run: |
-        matlab -batch "matlab.internal.liveeditor.openAndConvert('Homework_3.mlx', 'Homework_3.m', 'export', 'html')"
         matlab -batch "run('Homework_3.m')"
