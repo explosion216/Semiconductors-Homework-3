@@ -1,0 +1,22 @@
+name: Run MATLAB Live Script
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-matlab:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Setup MATLAB
+      uses: matlab-actions/setup-matlab@v1
+
+    - name: Run MATLAB script
+      run: |
+        matlab -batch "matlab.internal.liveeditor.openAndConvert('Homework_3.mlx', 'Homework_3.m', 'export', 'html')"
+        matlab -batch "run('Homework_3.m')"
