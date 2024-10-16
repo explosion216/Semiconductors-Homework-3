@@ -1,4 +1,8 @@
 # Semiconductors Homework 3
+
+![Build Status](https://github.com/explosion216/Semiconductors-Homework-3/actions/workflows/matlab.yml/badge.svg)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-blue)
+
  Semiconductors Homework 3
 希望各位借鉴的同学都能Star、Fork或者Watch一下，谢谢！
 
