@@ -20,7 +20,7 @@
 
 
 ## MATLAB source code
-```
+```matlab
 clear;clc;
 ND=1e16*ones(1,4);
 NA=[1e15 1e16 2.5e17 1e18];
