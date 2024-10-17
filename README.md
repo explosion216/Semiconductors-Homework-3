@@ -4,7 +4,10 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-blue)
 
  Semiconductors Homework 3
-希望各位借鉴的同学都能Star、Fork或者Watch一下，谢谢！
+希望各位借鉴的同学都能Star,Fork或者Watch一下,谢谢!
+Excel结果在Releases中的Result
+实时脚本在live script文件夹
+GitHub workflow运行结果在Actions
 
 ## Result
 
